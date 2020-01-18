@@ -12,8 +12,8 @@ app.get("/", function(req, res){
 
 app.get("/processAPI", function(req, res){
     const request = require('request');
-    const apiKey = "bfe7481ab59048";
-    const apiKeyWeather = "294880920e13e9557af7783a1c3794b6";
+    const apiKey = "Your API Key";
+    const apiKeyWeather = "Api key";
     let URLofPage = req.url;
     let q = url.parse(URLofPage, true);
     let qdata = q.query;
